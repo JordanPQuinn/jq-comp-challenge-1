@@ -1,0 +1,95 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  margin: 0px;
+  max-width: 100%;
+}
+
+p {
+  height: 2vw;
+}
+
+h1 {
+  height: 3vw;
+  margin-left: 10%;
+}
+
+#storage {
+  display: inline-flex;
+  height: 101%;
+}
+
+.card-container {
+  height: 101%;
+  width: 60%;
+}
+
+.gallery-container {
+  height: 101%;
+  width: 40%;
+}
+
+.flex-card {
+  align-content: center;
+  justify-content: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  height: 33.33%;
+  margin-right: -4.2px;
+  width: 33.33%;
+  vertical-align: top;
+}
+
+#intro-card {
+  justify-content: flex-start;
+  width: 66.66%;
+}
+
+#intro-content {
+  margin-left: 10%;
+  text-align: left;
+  display: block;
+  width: 100%;
+}
+
+.button {
+  background: none;
+  border: 2px solid white;
+  display: inline-block;
+  height: 20%;
+  position: relative;
+  width: 30%;
+}
+
+#resume {
+  margin-left: 10%;
+}
+
+#social-menu, #portfolio {
+  background: #122039;
+} 
+
+#profile {
+  background: #AB877E;
+}
+
+.headshot {
+  height: 100%;
+  width: 100%;
+}
+
+#blog, #intro-card {
+  background: #87A4E2;
+}
+
+ #education{
+  background: #B2C4E1;
+}
+
+#contact, #experience {
+  background: #845549;
+}
